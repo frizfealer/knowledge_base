@@ -5,7 +5,7 @@
 	1. Develop ideas, arguments and discussions.
 	2. Browse the previous permanent notes: does this notes contradict, correct, support, or add to the currents slipbox?
 	3. One note for one idea and write as if you were writing for someone else. The note should be self-contained.
-3. Remove related notes in 1).
+3. Remove related notes in fleeting_notes and move the related literature_notes to reference_notes
 
 ## References
 
