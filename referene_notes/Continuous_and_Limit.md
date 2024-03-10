@@ -13,7 +13,7 @@
 	* $\lim_{x \to c} kf(x) = k \lim_{x \to c} f(x)$
 * Limit of composite function
 	* $\lim_{x \to c} f(h(x)) = f(\lim_{x \to c} h(x))$. 
-	*  $lim_{x \to c} h(x)$ needs to be exist, if not check left and right limit exist, if so, plug them into the function f and see if the values are the same.
+	*  $lim_{x \to c} h(x)$ needs to be exist, if not, check left and right limit exist, if so, plug them into the function f and see if the values are the same.
 * Finding limits
 * ![[Pasted image 20240302101638.png]]
 * Squeeze theorem, theorem useful in finding limits.
