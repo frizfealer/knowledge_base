@@ -1,5 +1,4 @@
-
-2024-01-11T12:46
+## Bond duration (Macaulay duration)
 ## Contents
 Bond duration (**Macaulay duration**) is a weighted average maturity of bonds, based on its cash flows in present values.
 The weight is computed as follows the denominator is the present value of bond (price), and the numerator is the cash flow discounted to present value.
