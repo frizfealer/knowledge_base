@@ -19,6 +19,6 @@ If a function is differentiable at x = a, then it is continuous at x = a <-> If 
 9. $\frac{\partial}{\partial x} sin(x) = cos(x)$
 10. $\frac{\partial}{\partial x} cos(x) = -sin(x)$
 11. $\frac{\partial}{\partial x} tan(x) = sec^2(x)$
-12. $\frac{\partial}{\partial x} cot(x) = csc^2(x)$
+12. $\frac{\partial}{\partial x} cot(x) = -csc^2(x)$
 13. $\frac{\partial}{\partial x} sec(x) = tan(x)sec(x)$
 14. $\frac{\partial}{\partial x} csc(x) = -cot(x)csc(x)$
