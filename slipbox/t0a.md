@@ -1,6 +1,6 @@
 **Date time:** 2024-02-17T13:46
 ## Contents
-Embrace the profound truth that the present is all aspects of life. Dwell in the 'now,' venturing into the past or future only when necessity calls.
+Dwell in the 'now,' venturing into the past or future only when necessity calls, because the present is all aspects of life. 
 
 ## References
 [[PPN-12]]
