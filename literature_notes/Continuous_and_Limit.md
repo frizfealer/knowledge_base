@@ -4,7 +4,7 @@
 	1. $\lim_{x \to a-} f(x)$ exists
 	2. $\lim_{x \to a^+ }f(x)$ exists
 	3. $\lim_{x \to a^+ }f(x) = \lim_{x \to a-} f(x)$
-* If limit at a exist for a function f, we can write $\lim_{x \to c} f(x) = c, c \in \mathbb{R}$
+* If limit at a exist for a function f, we can write $\lim_{x \to a} f(x) = c, c \in \mathbb{R}$
 * Limit of combined function
 	* $\lim_{x \to c} (f(x) + g(x)) = \lim_{x \to c} f(x) + \lim_{x \to c} g(x)$
 	* $\lim_{x \to c} (f(x) - g(x)) = \lim_{x \to c} f(x) - \lim_{x \to c} g(x)$
@@ -26,6 +26,6 @@
 	1. $\lim_{x \to a^+ }f(x)$ = f(a)
 	2. $\lim_{x \to b^- }f(x)$ = f(b)
 * Intermediate value theorem
-	* Given f(x) is continuous over interval $[a, b]$, where $f(a) = y_1, f(b) = y_2$. $f(c) = y_3$ for at least one c between $[a, b]$ if $y1 <=y3 <= y2$
+	* Given f(x) is continuous over interval $[a, b]$, where $f(a) = y_1, f(b) = y_2$, $f(c) = y_3$ for at least one c between $[a, b]$ if $y1 <=y3 <= y2$
 ## Reference
 https://www.khanacademy.org/math/differential-calculus/dc-limits
