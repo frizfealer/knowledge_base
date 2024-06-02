@@ -25,6 +25,7 @@
 * Function f is continuous at interval $[a, b]$ iff it is continuous at interval $(a, b)$, such that
 	1. $\lim_{x \to a^+ }f(x)$ = f(a)
 	2. $\lim_{x \to b^- }f(x)$ = f(b)
+	3. f(x) is continuous over (a, b)
 * Intermediate value theorem
 	* Given f(x) is continuous over interval $[a, b]$, where $f(a) = y_1, f(b) = y_2$, $f(c) = y_3$ for at least one c between $[a, b]$ if $y1 <=y3 <= y2$
 ## Reference
