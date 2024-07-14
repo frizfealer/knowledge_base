@@ -1,13 +1,13 @@
-### Derivative of f(x) at x = a
+## Derivative of f(x) at x = a
 1. Informal definition: the slope of the tangent line to the function f(x) at the point x=a
 2. formal defintion
-	1. $f'(x)  = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$, $f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$
+	1. $f'(x)  = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
 	2. $f'(a) = \lim_{ x \to a }\frac{f(x)-f(a)}{x-a}$
 
-### Differentiability and Continuity
+## Differentiability and Continuity
 If a function is differentiable at x = a, then it is continuous at x = a <-> If a function is not continuous at x = a, then it is not differentiable at x = a
 
-### Derivative rules
+## Derivative rules
 1.  $\frac{\partial}{\partial x} A = 0$
 2. $\frac{\partial}{\partial x} Af(x) = A f'(x)$
 3. $\frac{\partial}{\partial x} [f(x) + g(x)] = f'(x) + g'(x)$
@@ -31,12 +31,15 @@ If a function is differentiable at x = a, then it is continuous at x = a <-> If 
 	12. $\frac{\partial}{\partial x}cos^{-1}x = -\frac{1}{\sqrt{1-x^2}}$
 	13. $\frac{\partial}{\partial x}tan^{-1}x = \frac{1}{1+x^2}$
 
-### L'Hôpital's rule
+## L'Hôpital's rule
 
 LHopital's rule is useful when there is a undetermined form of function when evaluating limits, e.g. $\frac{0}{0}, \frac{\infty}{\infty}$
 It says, if the limit $\lim_{x \to c} \frac{u'(x)}{v'(x)}$ exists, then the two limits are equal:
 $$\lim_{x \to c} \frac{u(x)}{v(x)} = \lim_{x \to c} \frac{u'(x)}{v'(x)}$$
-
+## Mean Value Theorem
+For a function f that is differentiable over an open interval from a to b, and continuous on the closed interval from a to b, then there exists a number of c on that interval such that $f'(c)$ is equal to the function's average rate of change over the interval
+$$ f'(c) = \frac{f(b) - f(a)}{b-a}$$
 ### Reference
 https://www.khanacademy.org/math/differential-calculus/dc-diff-intro
 https://www.khanacademy.org/math/differential-calculus/dc-chain
+https://www.khanacademy.org/math/differential-calculus/dc-analytic-app
