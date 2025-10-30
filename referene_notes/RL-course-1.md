@@ -21,10 +21,11 @@
 8. Partially observable Markov decision process (POMDP) partially observability, agent indirectly observes environments : Agent state not equals to environment state
 9. Major components of RL agents
 	1. Policy, a mapping function from state to action, e.g. $\pi(a|s) = P[A_t = a | S_t = s]$
-	2. Value function is a prediction of future reward, e.g. $v_{\pi}(s) = E_{\pi} [R_{t+1}+\gamma R_{t+2} + \gamma^2 R_{t+3} + | S_t= s]$
+	2. Value function is a prediction of future reward, e.g. $v_{\pi}(s) = E_{\pi} [R_{t+1}+\gamma R_{t+2} + \gamma^2 R_{t+3} + ... | S_t= s]$
 	3. model predicts what environment will do next
 		1. P predicts next state $P^a_{ss'} = P[S_{t+1}=s' | S_t=s, A_t=a]$
-		2. R predicts the immediate reward $R^a_s = E[R_{t+1}|S_t=s, A_t=a]$
+		2. R predicts the next/immediate reward $R^a_s = E[R_{t+1}|S_t=s, A_t=a]$
+			1. Note: expectation means it considers all possible states for $S_{t+1}$
 10. Two fundamental problems in sequential decision making
 	1. Reinforcement learning: Environment initially unknown, agent interacts with the env, agent improves policy
 	2. Planning: A model of environment is known, agent improves policy
