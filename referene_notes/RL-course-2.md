@@ -34,9 +34,9 @@
 	2. $q_*(s,a) = R^a_s + \gamma \sum_{s' \in S}P^a_{ss'}v_*(s')$
 	3. combine 1, 2, $v_*(s)=max_a R^a_s + \gamma \sum_{s' \in S}P^a_{ss'}v_*(s')$
 	4. combine 1, 2, $q_*(s,a)=R^a_s + \gamma \sum_{s' \in S} P^a_{ss'} max_a q_*(s',a')$
-	5. 
+		
 
 ## Reference
 
 https://davidstarsilver.wordpress.com/teaching/
-https://drive.google.com/drive/recent?dmr=1&ec=wgc-drive-hero-goto
+https://drive.google.com/drive/folders/1F7x3X9PhKb2LbX7GymuNZsR8_xev6gVI?usp=drive_link
