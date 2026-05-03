@@ -4,16 +4,16 @@
 2. Monte-Carlo (MC) methods learn directly from episodes of experience.
 	1. episodes: A rollout that is in the terminal state.
 	2. MC policy evaluation uses empirical mean return instead of expected return.
-		1. First-Visit MC policy evaluation. The first time-step t that state s is visited in an episode, increment counter $N(s) = N(s) + 1$, increment total return $S(s) = S(s) + G_t$, and value is estimated by mean return $V(s) = S(s)/N(s)$
+		1. First-Visit MC policy evaluation. The first time-step t that state s is visited in an episode, increment counter $N(s) = N(s) + 1$, increment total return $S(s) = S(s) + G_t$, and value is estimated by mean return $V(s) = S(s)/N(s)$. There is also Every-Visit MC policy evaluation
 		2. The update formula can be rewritten as $V(S_t)=V(S_t) + \frac{1}{N(S_t)}(G_t-V(S_t))$ = $V(S_t) = V(S_t) + \alpha(G_t - V(S_t))$
 3. Temporal-Difference methods learns from incomplete episodes, by bootstrapping
-	1. Bootstrapping, a guess of real value function S(t)
+	1. Bootstrapping, a guess of real value function $V(S_t)$ without really rollout to the terminal state
 	2. $V(S_t) = V(S_t) + \alpha(R_{t+1}+\gamma V(S_{t+1}) - V(S_t))$
 	3. $\delta_t=R_{t+1}+\gamma V(S_{t+1}) - V(S_t)$ is called the TD error
-	4. True TD target $R_{t+1}+\gamma V_{\pi}(S_{t+1})$ is unbiased estimate of $V_{\pi}(S_t)$, TD target $R_{t+1}+\gamma V(S_{t+1})$ is biased estimate of $V_{\pi}(S_t)$
-4. MC  converges to solution with minimum mean-squared error, while TD(0) converges to solution of max likelihood Markov model. So TD is more efficient in Markov env while MC is not.
-5. Bootstrap: MC does not bootstrap, but TD and DP bootstrap
-6. Sampling: MC and TD samples, but DP does not sample.
+	4. True TD target $R_{t+1}+\gamma V_{\pi}(S_{t+1})$ is unbiased estimate of $V_{\pi}(S_t)$ (where you estimate the results after reaching the terminal state), TD target $R_{t+1}+\gamma V(S_{t+1})$ is biased estimate of $V_{\pi}(S_t)$
+4. MC converges to solution with minimum mean-squared error, while TD(0) converges to solution of max likelihood Markov model. So TD is more efficient in Markov env while MC is not.
+5. Bootstrap: MC does not bootstrap, but TD and DP bootstrap. Bootstrap means estimating the episode reward with the current value function, e.g. in TD(0) we are using the value function in the next state to estimate the episode reward.
+6. Sampling: MC and TD samples, but DP does not sample. Sampling means only updates based on the sampling actions/states.
 7. Let TD target looks n steps into the future
 	1. n = 1, $G_t^{(1)}=R_{t+1}+\gamma V(S_{t+1})$
 	2. n = 2, $G_t^{(2)}=R_{t+1}+\gamma R_{t+2} + \gamma^2V(S_{t+2})$
@@ -24,6 +24,7 @@
 		1. $E_0(s)=0$, $E_t(s)=\gamma \lambda E_{t-1}(s) + 1(S_t=s)$
 		2. $\delta_t=R_{t+1}+\gamma V(S_{t+1})-V(S_{t})$
 		3. $V(s)=V(s)+\alpha \delta_t E_t(s)$
+	3. When $\lambda=0$, $E_t(s)=1(S_t=s)$, this is exactly equivalent to TD(0) update $V(s) = V(s) + \alpha \delta_t$.
 ## Reference
 https://davidstarsilver.wordpress.com/teaching/
 https://drive.google.com/drive/folders/1F7x3X9PhKb2LbX7GymuNZsR8_xev6gVI?usp=drive_link

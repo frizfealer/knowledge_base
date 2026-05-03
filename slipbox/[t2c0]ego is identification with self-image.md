@@ -1,3 +1,7 @@
+---
+title: ego is identification with self-image
+---
+
 **Date time:** 2024-01-22T18:33
 ## Contents
 As we grow, our self-image is shaped by our past experiences and social values learned in the past. Our unconscious identification with this self-image is known as the ego.
@@ -6,6 +10,6 @@ As we grow, our self-image is shaped by our past experiences and social values l
 [[PPN-6]]
 
 ## Related notes
-[[t2c]]
+[[[t2c]obstacles to enlightenment are thought identification]]
 
 

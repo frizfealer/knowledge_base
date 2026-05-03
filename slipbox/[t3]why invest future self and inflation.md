@@ -1,3 +1,7 @@
+---
+title: why invest future self and inflation
+---
+
 **Date time:** 2024-05-05T17:38
 ## Contents
 為什麼要投資？投資是為了未來的自己，讓未來的自己有錢可用。投資也是為了對抗通膨。

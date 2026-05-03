@@ -1,3 +1,7 @@
+---
+title: being is the source of all forms
+---
+
 **Date time:** 2024-01-20T20:44
 ## Contents
 The Being, the One, the God, the Buddha-nature, or the divinity of God manifests in all forms of life and things. It is the origin, the First Cause, and has infinite potentials to becomes all forms.

@@ -1,0 +1,12 @@
+---
+title: ego lives in past and future
+---
+
+**Date time:** 2024-01-23T08:04
+## Contents
+[[[t2c0]ego is identification with self-image|The ego]] only dwells in the realms of the past and future. It stems from past experiences, and projects itself onto an imagined future, superior to the present. In this ceaseless contemplation of what was and what could be, the ego perpetuates its existence.
+## References
+[[PPN-7]]
+
+## Related notes
+[[[t2c0]ego is identification with self-image]]

@@ -1,3 +1,9 @@
+---
+title: only the present is real
+aliases:
+  - only the present is real
+---
+
 **Date time:** 2024-01-06T15:50
 ## Contents
 活在現在（當下），是唯一合理的事情。
