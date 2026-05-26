@@ -1,7 +1,6 @@
 ---
 title: only the present is real
 aliases:
-  - only the present is real
 ---
 
 **Date time:** 2024-01-06T15:50
