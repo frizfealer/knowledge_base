@@ -1,7 +1,11 @@
+---
+reviewed: 2026-06-11
+---
+
 2024-01-18T07:59
 ## Contents
-所謂開悟，就是覺知到本體，並且安住在本體的狀態
-開悟也可以說是活出自己真正的自己
+所謂開悟，就是覺知到本體，並且安住在本體的狀態 ↑[[[t2b]enlightenment is abiding as being]]
+開悟也可以說是活出自己真正的自己 ↑[[[t2b]enlightenment is abiding as being]]
 ## Reference
 修煉當下的力量 p018
 

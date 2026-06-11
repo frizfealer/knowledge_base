@@ -1,6 +1,10 @@
+---
+reviewed: 2026-06-11
+---
+
 2024-01-18T08:12
 ## Contents
-初步的解脫，就是了解到你不等於你的心智。當你開始觀察你的心智，就啟動了意識的更高層次。
+初步的解脫，就是了解到你不等於你的心智。當你開始觀察你的心智，就啟動了意識的更高層次。 ↑[[[t2d]first step to enlightenment is observing your thoughts]]
 
 ## Reference
 修煉當下的力量 p019

@@ -1,6 +1,10 @@
+---
+reviewed: 2026-06-11
+---
+
 ㄑ2024-01-20T12:29
 ## Contents
-當你與你的心智認同，你就被過去和未來的時間束縛，讓你無法尊重當下時刻。
+當你與你的心智認同，你就被過去和未來的時間束縛，讓你無法尊重當下時刻。 ↑[[[t2c1a]ego identification blocks the present]]
 
 ## Reference
 修煉當下的力量  p036
