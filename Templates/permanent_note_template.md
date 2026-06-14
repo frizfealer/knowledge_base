@@ -1,3 +1,6 @@
+---
+title:
+---
 **Date time:** {{date:YYYY-MM-DD}}T{{time:HH:mm}}
 ## Contents
 1. Look at the notes in fleeting_notes and literature_notes.
@@ -10,5 +13,3 @@
 ## References
 
 ## Related notes
-
-
